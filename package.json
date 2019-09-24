@@ -1,0 +1,20 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "gulp watch",
+        "prod": "gulp --production"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "laravel-elixir": "^5.0.0",
+        "bootstrap-sass": "^3.0.0"
+    },
+    "dependencies": {
+        "circular-json": "^0.5.9",
+        "debug": "~2.2.0",
+        "dotenv": "^4.0.0",
+        "express": "^4.13.4",
+        "request": "^2.69.0",
+        "socket.io": "^1.4.5"
+    }
+}
